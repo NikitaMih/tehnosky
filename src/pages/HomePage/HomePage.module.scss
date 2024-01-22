@@ -1,0 +1,14 @@
+@import '../../assets/variables.scss';
+
+.background {
+    background-color: $background;
+    min-height: 100vh;
+}
+
+.title {
+    border-bottom: 4px solid $grey;
+    color: $blue;
+    font-size: rem(40px);
+    text-align: center;
+    padding: 20px;
+}

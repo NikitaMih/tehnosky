@@ -1,0 +1,50 @@
+@import '../../../assets/variables.scss';
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $middle-grey;
+    padding: 16px 0;
+}
+
+.info {
+    display: flex;
+    cursor: pointer;
+
+    div:first-child {
+        color: $grey;
+    }
+
+    div {
+        min-width: 80px;
+        font-size: rem(20px);
+    }
+}
+
+.controls {
+    display: flex;
+}
+
+.control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 16px;
+
+    span {
+        margin-left: 8px;
+        font-size: rem(16px);
+        font-weight: 500;
+    }
+}
+
+.delete {
+    color: $red;
+}
+
+.edit {
+    color: $grey;
+}

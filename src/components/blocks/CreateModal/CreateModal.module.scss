@@ -1,0 +1,48 @@
+@import '../../../assets/variables.scss';
+
+.err {
+    color: $red;
+    font-size: rem(20px);
+    margin: 8px 0;
+}
+
+.block {
+    margin: 15px 0;
+} 
+
+.title {
+    font-size: rem(20px);
+}
+
+.input {
+    width: 95%;
+    border: 1px solid $grey;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: rem(20px);
+}
+
+.textarea {
+    width: 95%;
+    min-height: 200px;
+    border: 1px solid $grey;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: rem(20px);
+}
+
+.controls {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+    button {
+        background-color: $blue;
+        border: none;
+        border-radius: 8px;
+        padding: 16px 24px;
+        cursor: pointer;
+        color: $white;
+        margin-right: 30px;
+    }
+}

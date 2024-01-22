@@ -1,0 +1,25 @@
+@import '../../../assets/variables.scss';
+
+.inputBlock {
+    border: 1px solid $middle-grey;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    border-radius: 4px;
+    height: 38px;
+}
+
+.input {
+   border: none;
+   outline: none;
+   width: 90%;
+   border-radius: 8px;
+   font-size: rem(20px);
+}
+
+.btn {
+    background-color: $white;
+    border: none;
+    cursor: pointer;
+    padding: 1%;
+}

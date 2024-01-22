@@ -1,0 +1,22 @@
+@import '../../../assets/variables.scss';
+
+.selectBlock {
+    align-items: center;
+    display: flex;
+}
+
+.title {
+    margin-right: 10px;
+    font-size: rem(20px);
+}
+
+.select {
+    width: 150px;
+    font-size: 20px;
+    width: 200px;  
+    border-radius: 8px;
+}
+
+.option {
+    font-size: 20px;
+}

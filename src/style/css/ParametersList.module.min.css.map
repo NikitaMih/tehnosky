@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../components/blocks/ParametersList/ParametersList.module.scss"
+    ],
+    "names": [],
+    "file": "ParametersList.module.min.css"
+}

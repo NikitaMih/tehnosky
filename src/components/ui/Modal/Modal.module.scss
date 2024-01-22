@@ -1,0 +1,41 @@
+@import '../../../assets/variables.scss';
+
+.back {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    backdrop-filter: invert(80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: $white;
+    width: 40%;
+    z-index: 10;
+    position: relative;
+    border-radius: 8px;
+    padding: 0 3px 30px 30px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: $red;
+    font-size: rem(20px);
+    font-weight: 900;
+    transform: rotate(45deg);
+}
+
+.title {
+    font-size: rem(32px);
+    margin: 10px 0;
+    color: $blue;
+    font-weight: 700;
+}

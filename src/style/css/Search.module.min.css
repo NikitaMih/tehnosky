@@ -1,0 +1,2 @@
+.inputBlock{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;width:100%}.input{border:none;font-size:17px;outline:none;padding:1%;width:60%}@media (min-width: 768px){.input{width:45%}}@media (min-width: 1024px){.input{font-size:20px;width:40%}}.btn{background-color:#fff;border:none;cursor:pointer;padding:1%}
+/*# sourceMappingURL=Search.module.min.css.map */
